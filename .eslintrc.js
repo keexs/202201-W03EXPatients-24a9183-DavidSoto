@@ -8,13 +8,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
-    babel: {
-      env: {
-        test: {
-          plugins: ["@babel/plugin-transform-modules-commonjs"],
-        },
-      },
-    },
   },
   rules: {
     "no-plusplus": "off",
