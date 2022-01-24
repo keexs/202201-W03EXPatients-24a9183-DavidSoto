@@ -54,3 +54,5 @@ const patients = [
     diet: "Salt free",
   },
 ];
+
+export default patients;
